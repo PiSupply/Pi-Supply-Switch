@@ -16,5 +16,5 @@ else
 
    systemctl enable /etc/systemd/system/piswitch.service
    systemctl start piswitch.service
-   whiptail --title "Installation complete" --msgbox "piSwitch installation complete. You can now safely shutdown your Raspberry Pi and insert the micro SD card into your Raspberry Pi Zero." 8 78
+   whiptail --title "Installation complete" --msgbox "Pi Switch installation complete. Please reboot your Raspberry Pi now." 8 78
 fi
