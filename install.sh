@@ -7,9 +7,11 @@ fi
 if [ ! $? = 0 ]; then
    exit 1
 else
+   cd ~
+   git clone -b patch-1 https://github.com/francesco-vannini/Pi-Supply-Switch.git
    mkdir "/opt/piswitch"
-   cp -a softshut.py /opt/piswitch
-   cp -a piswitch.service /etc/systemd/system
+   cp -a Pi-Supply-Switch/softshut.py /opt/piswitch
+   cp -a Pi-Supply-Switch/piswitch.service /etc/systemd/system
 
    systemctl enable /etc/systemd/system/piswitch.service
    systemctl start piswitch.service
