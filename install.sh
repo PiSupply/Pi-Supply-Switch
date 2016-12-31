@@ -7,7 +7,7 @@ fi
 if [ ! $? = 0 ]; then
    exit 1
 else
-   cd ~
+   cd /home/pi
    git clone -b patch-1 https://github.com/francesco-vannini/Pi-Supply-Switch.git
    mkdir "/opt/piswitch"
    cp -a Pi-Supply-Switch/softshut.py /opt/piswitch
