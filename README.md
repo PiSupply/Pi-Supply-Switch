@@ -3,9 +3,7 @@ Pi Supply Switch On/Off Switch for Raspberry Pi - https://www.pi-supply.com/prod
 
 #Installation
 1. Login via SSH or via the console.
-4. Run the following commands: 
+2. Run the following command and Pi Switch will be setup and installed: 
 ```
-git clone https://github.com/....
-cd Pi-Supply-Switch
-sudo ./install.sh
+curl -sSL https://goo.gl/i1Imel | sudo bash
 ```
