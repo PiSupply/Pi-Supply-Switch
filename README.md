@@ -5,7 +5,7 @@ Pi Supply Switch On/Off Switch for Raspberry Pi - https://www.pi-supply.com/prod
 1. Login via SSH or via the console.
 2. Run the following command and Pi Switch will be setup and installed: 
 ```bash
-curl -sSL https://goo.gl/i1Imel | sudo bash
+curl -sSL https://raw.githubusercontent.com/PiSupply/Pi-Supply-Switch/master/install.sh | sudo bash
 ```
 
 With this new script any standard pin can be chosen to provide the function previusly covered by pins 7 and 8.
