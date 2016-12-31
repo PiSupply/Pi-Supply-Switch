@@ -2,12 +2,10 @@
 Pi Supply Switch On/Off Switch for Raspberry Pi - https://www.pi-supply.com/product/pi-supply-raspberry-pi-power-switch/
 
 #Installation
-1. Install Raspbian (full, not lite) onto an SD card
-2. Expand your SD card!
-3. Get internet on your Pi - you can do this with a USB hub + WiFi dongle on the PiZero, or by temporarily putting your SD card into a B+/2/3 .
+1. Login via SSH or via the console.
 4. Run the following commands: 
 ```
-git clone https://github.com/tomhartley/piShift.git
-cd piShift
+git clone https://github.com/....
+cd Pi-Supply-Switch
 sudo ./install.sh
 ```
