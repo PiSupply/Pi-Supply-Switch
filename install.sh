@@ -9,7 +9,7 @@ fi
 if [ ! $? = 0 ]; then
    exit 1
 else
-   git clone -b patch-1 https://github.com/francesco-vannini/Pi-Supply-Switch.git
+   git clone https://github.com/PiSupply/Pi-Supply-Switch.git
    mkdir /opt/piswitch
    cp Pi-Supply-Switch/softshut.py /opt/piswitch
    cp Pi-Supply-Switch/piswitch.service /etc/systemd/system
