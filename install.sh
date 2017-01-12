@@ -9,6 +9,8 @@ fi
 if [ ! $? = 0 ]; then
    exit 1
 else
+   sudo apt-get install git whiptail #Installs packages which might be missing
+   
    git clone https://github.com/PiSupply/Pi-Supply-Switch.git
    mkdir /opt/piswitch
    cp Pi-Supply-Switch/softshut.py /opt/piswitch
