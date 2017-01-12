@@ -10,11 +10,17 @@ if [ ! $? = 0 ]; then
    exit 1
 else
    sudo apt-get install git whiptail #Installs packages which might be missing
-   
+
+   PiSupplySwitchDir="Pi-Supply-Switch"
+   if [ -d "$PiSupplySwitchDir" ]; then
+        whiptail --title "Installation aborted" --msgbox "$PiSupplySwitchDir already exists, please remove it and restart the installation" 8 78
+        exit
+   fi
+
    git clone https://github.com/PiSupply/Pi-Supply-Switch.git
    mkdir /opt/piswitch
-   cp Pi-Supply-Switch/softshut.py /opt/piswitch
-   cp Pi-Supply-Switch/piswitch.service /etc/systemd/system
+   cp $PiSupplySwitchDir/softshut.py /opt/piswitch
+   cp $PiSupplySwitchDir/piswitch.service /etc/systemd/system
 
    systemctl enable /etc/systemd/system/piswitch.service
    systemctl start piswitch.service
