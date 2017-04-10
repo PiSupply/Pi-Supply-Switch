@@ -1,5 +1,5 @@
 # Pi-Supply-Switch
-Pi Supply Switch On/Off Switch for Raspberry Pi - https://www.pi-supply.com/product/pi-supply-raspberry-pi-power-switch/
+[Pi Supply Switch On/Off Switch](https://www.pi-supply.com/product/pi-supply-raspberry-pi-power-switch/) for Raspberry Pi
 
 ##Installation
 1. Login via SSH or via the console.
