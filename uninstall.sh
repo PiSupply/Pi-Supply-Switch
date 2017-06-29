@@ -17,6 +17,5 @@ else
    rm /opt/piswitch -d
    rm /etc/systemd/system/piswitch.service
 
-   whiptail --title "Uninstall complete" --msgbox "Pi Switch uninstall complete. You are safe to remove the folder Pi-Supply-Switch." 8 78
+   whiptail --title "Uninstall complete" --msgbox "Pi Switch uninstall complete.\nYou are safe to remove the folder Pi-Supply-Switch." 8 78
 fi
-

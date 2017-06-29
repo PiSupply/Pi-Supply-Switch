@@ -48,3 +48,19 @@ The [original code for the Pi Switch](https://www.pi-supply.com/pi-supply-switch
 
 ## Raspbian shows under-voltage warnings
 The problem can be solved by using shorter, thicker USB cables. With Pi Switch we are now shipping 30cm 22AWG USB cables which solve the problem entirely.
+
+## How do I know if the service is running properly?
+Run the following command
+```bash
+systemctl status piswitch.service
+```
+which should return something like
+```
+● piswitch.service - Starts softshut for Pi Switch
+   Loaded: loaded (/etc/systemd/system/piswitch.service; enabled)
+   Active: active (running) since Thu 2017-06-29 09:56:13 UTC; 6min ago
+ Main PID: 427 (python)
+   CGroup: /system.slice/piswitch.service
+           └─427 python /opt/piswitch/softshut.py
+
+```
