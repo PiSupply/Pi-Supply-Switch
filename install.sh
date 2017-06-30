@@ -9,7 +9,7 @@ fi
 if [ ! $? = 0 ]; then
    exit 1
 else
-   apt-get install git whiptail #Installs packages which might be missing
+   apt-get install -y git whiptail #Installs packages which might be missing
 
    PiSupplySwitchDir="Pi-Supply-Switch"
    if [ -d "$PiSupplySwitchDir" ]; then
