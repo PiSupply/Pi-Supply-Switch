@@ -1,3 +1,4 @@
+![Alt text](https://user-images.githubusercontent.com/16068311/31219700-0c1fd3e4-a9b6-11e7-8101-3b9b3c9450ad.png?raw=true "Optional Title")
 # Pi-Supply-Switch
 [Pi Supply Switch On/Off Switch](https://www.pi-supply.com/product/pi-supply-raspberry-pi-power-switch/) for Raspberry Pi
 
