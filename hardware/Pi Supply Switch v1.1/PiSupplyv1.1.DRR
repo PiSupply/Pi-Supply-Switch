@@ -1,0 +1,25 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: SmartSwitchV2.PcbDoc   17/03/2013  16:54:26
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : SmartSwitchV2-RoundHoles.TXT
+ASCII SlotHoles File : SmartSwitchV2-SlotHoles.TXT
+EIA File   : SmartSwitchV2.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        19.68mil (0.49987mm)     Round          2                0.10 Inch (2.50 mm)
+T2        19.68mil (0.49987mm)     Slot           2                287.38 Inch (7299.46 mm)
+T3        27.56mil (0.70002mm)     Round          8                0.59 Inch (14.95 mm)
+T4        28mil (0.7112mm)         Round          2                0.26 Inch (6.50 mm)
+T5        33.46mil (0.84988mm)     Round          12               1.67 Inch (42.42 mm)
+T6        35.43mil (0.89992mm)     Round          2                0.10 Inch (2.54 mm)
+T7        39.37mil (1mm)           Round          22               4.98 Inch (126.37 mm)
+T8        47.24mil (1.1999mm)      Round          4                0.95 Inch (24.19 mm)
+T9        90.55mil (2.29997mm)     Round          2                0.52 Inch (13.12 mm)
+T10       114.17mil (2.89992mm)    Round          3                1.46 Inch (37.11 mm)
+---------------------------------------------------------------------------
+Totals                                            59               298.00 Inch (7569.16 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

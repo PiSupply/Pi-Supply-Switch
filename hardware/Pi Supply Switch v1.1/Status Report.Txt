@@ -1,0 +1,30 @@
+Output: Gerber Files
+Type  : Gerber
+From  : PCB Document [PiSupplyv1.1.PcbDoc]
+   Generated File[PiSupplyv1.1.GTL]
+   Generated File[PiSupplyv1.1.GBL]
+   Generated File[PiSupplyv1.1.GTO]
+   Generated File[PiSupplyv1.1.GTP]
+   Generated File[PiSupplyv1.1.GTS]
+   Generated File[PiSupplyv1.1.GBS]
+   Generated File[PiSupplyv1.1.GBP]
+   Generated File[PiSupplyv1.1.GBO]
+   Generated File[PiSupplyv1.1.GKO]
+   Generated File[PiSupplyv1.1.RUL]
+   Generated File[PiSupplyv1.1.EXTREP]
+   Generated File[PiSupplyv1.1.REP]
+
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [PiSupplyv1.1.PcbDoc]
+   Generated File[PiSupplyv1.1-RoundHoles.TXT]
+   Generated File[PiSupplyv1.1-SlotHoles.TXT]
+   Generated File[PiSupplyv1.1.DRL]
+   Generated File[PiSupplyv1.1.LDP]
+   Generated File[PiSupplyv1.1.DRR]
+
+
+Files Generated   : 17
+Documents Printed : 0
+
+Finished Output Generation At 16:54:26 On 17/03/2013
