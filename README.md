@@ -28,6 +28,11 @@ PiSwitch 8 <---> RPi 11
 
 Rememeber that the notation used is the physical notation only.
 
+**Note that the file to be changed once the installation has been carried out is located under /opt/piswitch/softshut.py and will need to be edited as root**
+```bash
+sudo nano /opt/piswitch/softshut.py
+```
+
 ## Usage
 
 * Press the On button to power on the Raspberry Pi.
