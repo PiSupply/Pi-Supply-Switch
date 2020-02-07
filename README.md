@@ -1,4 +1,4 @@
-![Alt text](https://user-images.githubusercontent.com/16068311/31219700-0c1fd3e4-a9b6-11e7-8101-3b9b3c9450ad.png?raw=true "Pi Supply Switch Logo")
+![pisupply-switch-banner](https://user-images.githubusercontent.com/1878314/73882377-d9b49080-4859-11ea-9c7e-e3c351f821e5.png)
 # Pi-Supply-Switch
 [Pi Supply Switch On/Off Switch](https://www.pi-supply.com/product/pi-supply-raspberry-pi-power-switch/) for Raspberry Pi
 
@@ -6,7 +6,7 @@
 
 ## Installation
 1. Login via SSH or via the console.
-2. Run the following command and Pi Switch will be setup and installed: 
+2. Run the following command and Pi Switch will be setup and installed:
 ```bash
 curl -sSL https://pisupp.ly/piswitchcode | sudo bash
 ```
