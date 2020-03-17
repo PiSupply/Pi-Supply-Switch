@@ -47,10 +47,10 @@ Should you not have been able to run the uninstall.sh in order to be able to acc
 Use the jumper cable provided with the switch and connect pin 7 on the Raspberry Pi to pin 9 (GND) and boot normally. This will trick the script into behaving as if the Pi Switch was connected. At this point you can run the uninstall.sh, power off the system and unplug the jumper cable.
 
 ## Where can I find an assembly guide?
-A [text guide](https://www.pi-supply.com/pi-supply-switch-v1-1-assembly-instructions/) can be found on our website alternative you can also find a [steb by step video](https://www.youtube.com/watch?v=bHj_pMD7oLI&feature=youtu.be).
+A [text guide](https://learn.pi-supply.com/make/pi-supply-switch-assembly-instructions/) can be found on our website alternative you can also find a [steb by step video](https://www.youtube.com/watch?v=bHj_pMD7oLI&feature=youtu.be).
 
 ## I am still running Wheezy where can I find compatible code?
-The [original code for the Pi Switch](https://www.pi-supply.com/pi-supply-switch-v1-1-code-examples/) can be found on our website.
+The [original code for the Pi Switch](https://learn.pi-supply.com/pi-supply-switch-v1-1-code-examples/) can be found on our website.
 
 ## Raspbian shows under-voltage warnings
 The problem can be solved by using shorter, thicker USB cables. With Pi Switch we are now shipping 30cm 22AWG USB cables which solve the problem entirely.
