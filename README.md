@@ -10,9 +10,13 @@
 ```bash
 curl -sSL https://pisupp.ly/piswitchcode | sudo bash
 ```
+For OctoPrint run the following:
+```bash
+curl -sSL https://pisupp.ly/piswitchoctoprint | bash
+```
 
-With this new script any standard pin can be chosen to provide the function previusly covered by pins 7 and 8.
-Within softshut.py you can change the assignement which by default is
+With this new script any standard pin can be chosen to provide the function previously covered by pins 7 and 8.
+Within softshut.py you can change the assignment which by default is
 
 ```python
 PinSeven = 7
@@ -26,7 +30,7 @@ PiSwitch 7 <---> RPi 7
 PiSwitch 8 <---> RPi 11
 ```
 
-Rememeber that the notation used is the physical notation only.
+Remember that the notation used is the physical notation only.
 
 **Note that the file to be changed once the installation has been carried out is located under /opt/piswitch/softshut.py and will need to be edited as root**
 ```bash
@@ -42,7 +46,7 @@ sudo nano /opt/piswitch/softshut.py
 
 # FAQ
 ## My Pi switches off before fully booting
-To avoid this condition always use the Pi Switch in conjuntion with the script above. Neither the switch nor the script will work on their own and will result in the powering off of the Raspberry Pi shortly after booting. As previously pointed out you need to install the code before connecting the switch. To remove the switch run the uninstall.sh script before returning to powering the Raspberry Pi only with a traditional PSU.
+To avoid this condition always use the Pi Switch in conjunction with the script above. Neither the switch nor the script will work on their own and will result in the powering off of the Raspberry Pi shortly after booting. As previously pointed out you need to install the code before connecting the switch. To remove the switch run the uninstall.sh script before returning to powering the Raspberry Pi only with a traditional PSU.
 Should you not have been able to run the uninstall.sh in order to be able to access your OS without it prematurely powering off you can use the following workaround.
 Use the jumper cable provided with the switch and connect pin 7 on the Raspberry Pi to pin 9 (GND) and boot normally. This will trick the script into behaving as if the Pi Switch was connected. At this point you can run the uninstall.sh, power off the system and unplug the jumper cable.
 
