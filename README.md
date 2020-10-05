@@ -74,3 +74,10 @@ which should return something like
            └─427 python /opt/piswitch/softshut.py
 
 ```
+
+## Open Source Hardware
+
+We are proud to say that the Pi Supply Switch is certified by the [Open Source Hardware Association](https://certification.oshwa.org/uk000019.html) with UID number UK000019. Our certification mark is below:
+
+
+![OSHW_mark_UK000019](https://user-images.githubusercontent.com/1878314/95061022-f65bdd80-06f2-11eb-9899-0029074ed2ed.png)
