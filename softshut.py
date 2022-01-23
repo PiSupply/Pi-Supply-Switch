@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # Import the modules to send commands to the system and access GPIO pins
 from subprocess import call
